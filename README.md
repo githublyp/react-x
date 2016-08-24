@@ -1,4 +1,4 @@
-如何搭建：
+﻿如何搭建：
 react-native
 react-web
 
@@ -21,6 +21,14 @@ react-native run-android
 react-native 智能提醒：（webstorm：file->import setting->ReactNative.jar）
 git clone https://github.com/virtoolswebplayer/ReactNative-LiveTemplate
 
+//react-web
+npm install react-web-cli -g
+react-web init X-name
+文档：https://github.com/taobaofed/react-web
+//打包
+react-web bundle
+
 参考文档：
 http://facebook.github.io/react-native/releases/0.31/docs/webview.html#webview
 http://www.kancloud.cn/digest/rnative/121808
+http://blog.csdn.net/watertekhqx/article/details/51302235
